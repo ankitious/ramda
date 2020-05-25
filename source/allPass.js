@@ -1,9 +1,8 @@
-import _curry1 from './internal/_curry1';
-import curryN from './curryN';
-import max from './max';
-import pluck from './pluck';
-import reduce from './reduce';
-
+import _curry1 from "./internal/_curry1.js";
+import curryN from "./curryN.js";
+import max from "./max.js";
+import pluck from "./pluck.js";
+import reduce from "./reduce.js";
 
 /**
  * Takes a list of predicates and returns a predicate that returns true for a
@@ -31,7 +30,7 @@ import reduce from './reduce';
  *      isQueenOfSpades({rank: 'Q', suit: '♠︎'}); //=> true
  */
 var allPass = _curry1(function allPass(preds) {
-  return curryN(reduce(max, 0, pluck('length', preds)), function() {
+  return curryN(reduce(max, 0, pluck("length", preds)), function () {
     var idx = 0;
     var len = preds.length;
     while (idx < len) {
