@@ -1,4 +1,4 @@
-import _curry1 from './internal/_curry1';
+import _curry1 from './internal/_curry1.js';
 
 
 /**
@@ -10,7 +10,7 @@ import _curry1 from './internal/_curry1';
  * @since v0.1.0
  * @category Logic
  * @sig * -> Boolean
- * @param {*} a any value
+* @param {*} a any value
  * @return {Boolean} the logical inverse of passed argument.
  * @see R.complement
  * @example
