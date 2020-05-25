@@ -1,6 +1,5 @@
-import _concat from './internal/_concat';
-import _curry3 from './internal/_curry3';
-
+import _concat from "./internal/_concat.js";
+import _curry3 from "./internal/_curry3.js";
 
 /**
  * Applies a function to the value at the given index of an array, returning a
