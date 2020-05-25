@@ -1,6 +1,6 @@
-import _curry2 from "./internal/_curry2.js";
-import _dispatchable from "./internal/_dispatchable.js";
-import _xall from "./internal/_xall.js";
+import _curry2 from './internal/_curry2.js';
+import _dispatchable from './internal/_dispatchable.js';
+import _xall from './internal/_xall.js';
 
 /**
  * Returns `true` if all elements of the list match the predicate, `false` if
@@ -27,7 +27,7 @@ import _xall from "./internal/_xall.js";
  *      R.all(equals3)([3, 3, 1, 3]); //=> false
  */
 var all = _curry2(
-  _dispatchable(["all"], _xall, function all(fn, list) {
+  _dispatchable(['all'], _xall, function all(fn, list) {
     var idx = 0;
     while (idx < list.length) {
       if (!fn(list[idx])) {
