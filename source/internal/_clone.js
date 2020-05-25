@@ -1,7 +1,6 @@
 import _cloneRegExp from './_cloneRegExp.js';
 import type from './_type.js';
 
-
 /**
  * Copies an object.
  *
